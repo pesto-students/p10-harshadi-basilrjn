@@ -1,0 +1,77 @@
+.parent{
+  padding-left: 500px;
+  padding-top: 225px;
+ align-items: center;
+ 
+}
+
+
+.A {
+  display: flex;
+}
+
+
+.box1 {
+  background-color: red;
+  width: 160px;
+  height: 160px;
+  transition: all 3s ease-in-out;
+  z-index: 1;
+}
+.parent:hover .box1 {
+  transform: rotate(+90deg);
+  transform-origin: top left;
+  
+}
+
+
+
+.box2 {
+  background-color: yellow;
+  width: 160px;
+  height: 160px;
+  transition: all 3s ease-in-out;
+  z-index: 1;
+
+}
+.parent:hover .box2 {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+
+
+}
+.B {
+  display: flex;
+}
+.parent:hover .box3 {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+}
+
+.box3 {
+  background-color: blue;
+  width: 160px;
+  height: 160px;
+  transition: all 3s ease-in-out;
+  z-index: 1;
+
+}
+.parent:hover .box4 {
+  transform: rotate(+90deg);
+  transform-origin: bottom right;
+}
+
+.box4 {
+  background-color: green;
+  width: 160px;
+  height: 160px;
+  transition: all 3s ease-in-out;
+  z-index: 1;
+}
+.text {
+  align-items: center;
+  position: fixed;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
